@@ -1,10 +1,12 @@
 # raster-tools
 a place to store useful notebooks and functions for working with raster datasets 
 
+
 ALL_NCALM_Sites_plots.ipynb 
-* NCALM lidar data collected by a successful grant I wrote
-* Link to the dataset info here: https://opentopography.org/news/new-ncalm-dataset-eastern-cascade-mountains-washington-now-available
-* One of the sites is Fish Lake (FL) which I use throughout the rest of the notebooks in this repo. 
+* Visualizing the full NCALM lidar dataset that was collected by a successful grant I wrote to NCALM for lidar data.
+  *  Here is a link to the dataset info here: https://opentopography.org/news/new-ncalm-dataset-eastern-cascade-mountains-washington-now-available
+* One of the three sites is Fish Lake (FL) which I use throughout the rest of the notebooks in this repo. 
+
 
 ### Other notebooks in this folder
 FL_create_netcdf.ipynb
@@ -32,5 +34,6 @@ FL_stats_subsample.ipynb
 * subsampling from the extent determined by the variogram in FL_xdem.ipynb
 
 FL_RandomForest.ipynb
-* running the *sklearn* decision trees, random forest model, and partial dependence plots 
+* running the *sklearn* decision trees, random forest model, and partial dependence plots
+* interested to determine which variables are the largest predictors of peak snow depth 
   
